@@ -182,6 +182,17 @@ color: var(--four-title-color);
     text-decoration: none;
     color:var(--praimary-title-color);
   }
+
+  .adres-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:var(--thri-title-color);
+    
+  }
+
   /*-----portfolio------*/
    .knopki{
     font-family: Roboto;
