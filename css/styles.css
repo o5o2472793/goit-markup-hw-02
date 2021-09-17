@@ -189,7 +189,7 @@ color: var(--four-title-color);
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color:var(--thri-title-color);
+    color: rgba(255, 255, 255, 0.6);
     
   }
 
