@@ -6,9 +6,8 @@
     --thri-title-color: #757575;
     --four-title-color: #212121;
     --five-title-color: #ECECEC;
-    --background-color: #E5E5E5;
-
-   
+    --background-color: #FFFFFF;
+      
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -93,15 +92,20 @@ color: var(--praimary-title-color);
 }
 .btn:hover,
 .btn:focus {
+    color: var(--praimary-title-color);
+    background-color:#188CE8;
+}
+.button{
 font-weight: bold;
 font-size: 16px;
 line-height: 1.9;
 display: flex;
 align-items: center;
+border: none;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--praimary-title-color);
-background-color: var(--akcent-title-color);
+background-color:var(--akcent-title-color);
 }
 /* ----------------reklama----------------*/
 .reklama {
@@ -189,6 +193,7 @@ color: var(--four-title-color);
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    text-decoration: none;
     color: var(--praimary-title-color);
     
   }
